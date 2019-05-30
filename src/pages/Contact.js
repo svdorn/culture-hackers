@@ -29,7 +29,7 @@ class Contact extends React.Component {
                 </div>
                 <div className="contact-form">
                     <form
-                        action="https://dislack.com/send/5cba2caf7e1a631b44de68d8"
+                        action="https://dislack.com/send/5cf04b489b64665469f19e8c"
                         method="post"
                         id="form-contact"
                     >

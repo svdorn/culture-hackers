@@ -4,13 +4,13 @@ import TextField from "@material-ui/core/TextField";
 
 import "./EmailForm.css";
 
-class EmailForm extends React.Component {
+class HeaderEmailForm extends React.Component {
     state = {
         email: ""
     };
 
     handleSubmit = () => {
-        document.getElementById("form-email").submit();
+        document.getElementById("header-form-email").submit();
     };
 
     handleChange = name => event => {
@@ -28,7 +28,7 @@ class EmailForm extends React.Component {
             <form
                 action="https://dislack.com/send/5cf04b489b64665469f19e8c"
                 method="post"
-                id="form-email"
+                id="header-form-email"
                 className="email-form-containter"
             >
                 <TextField
@@ -51,4 +51,4 @@ class EmailForm extends React.Component {
     }
 }
 
-export default EmailForm;
+export default HeaderEmailForm;

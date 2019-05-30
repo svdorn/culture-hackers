@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import EmailForm from "./EmailForm";
+import HeaderEmailForm from "./HeaderEmailForm";
 
 import "./Header.css";
 
@@ -25,7 +25,7 @@ class Header extends Component {
                     </Link>
                 </div>
                 <div>
-                    <EmailForm text="Join Newsletter" size="medium" />
+                    <HeaderEmailForm text="Join Newsletter" size="medium" />
                 </div>
             </div>
         );
