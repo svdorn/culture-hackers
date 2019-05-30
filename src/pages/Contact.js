@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import Swirl from "../components/Swirl";
 import TextField from "@material-ui/core/TextField";
 
 import "./Pages.css";
@@ -9,7 +8,6 @@ class Contact extends React.Component {
     state = {
         name: "",
         email: "",
-        subject: "",
         message: ""
     };
 
@@ -26,9 +24,8 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="first-frame-container first-frame-header background-yellow">
+                <div className="first-frame-container contact-first-frame">
                     <h1 className="header">Contact Us</h1>
-                    <Swirl fill="#edf7fc" />
                 </div>
                 <div className="contact-form">
                     <form
@@ -55,16 +52,6 @@ class Contact extends React.Component {
                             variant="outlined"
                             value={this.state.email}
                             onChange={this.handleChange("email")}
-                        />
-                        <TextField
-                            id="outlined-with-placeholder"
-                            className="text-field"
-                            label="Subject"
-                            type="text"
-                            name="subject"
-                            variant="outlined"
-                            value={this.state.subject}
-                            onChange={this.handleChange("subject")}
                         />
                         <TextField
                             id="outlined-with-placeholder"

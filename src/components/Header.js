@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Button from "@material-ui/core/Button";
+import EmailForm from "./EmailForm";
 
 import "./Header.css";
 
@@ -17,8 +17,15 @@ class Header extends Component {
             <div className="menu">
                 <div>
                     <Link to="/">
-                        <img src="/images/Culture Hackers.png" alt="Culture Hackers" height={40} />
+                        <img
+                            src="/images/Culture Hackers Blue.png"
+                            alt="Culture Hackers"
+                            height={70}
+                        />
                     </Link>
+                </div>
+                <div>
+                    <EmailForm text="Join Newsletter" size="medium" />
                 </div>
             </div>
         );

@@ -1,0 +1,23 @@
+.form-email {
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.email-form-text-field {
+    display: inline-flex !important;
+}
+.email-form-text-field > label {
+    transform: translate(14px, 14px) scale(1);
+}
+.email-form-text-field > div > input {
+    padding: 10px 10px 15px 10px;
+}
+.email-form-button-container {
+    cursor: pointer;
+    margin-left: 20px;
+    display: inline-flex;
+}
+.email-form-button {
+    background-color: var(--primary-color) !important;
+    color: var(--text-white) !important;
+}

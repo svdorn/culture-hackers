@@ -13,7 +13,11 @@ class Footer extends Component {
                 </div>
                 <div className="footer-logo">
                     <Link to="/">
-                        <img src="/images/Culture Hackers.png" alt="Culture Hackers" height={40} />
+                        <img
+                            src="/images/Culture Hackers Blue.png"
+                            alt="Culture Hackers"
+                            height={70}
+                        />
                     </Link>
                 </div>
                 <div className="footer-button">

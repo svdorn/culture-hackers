@@ -6,14 +6,14 @@ import { MuiThemeProvider, createMuiTheme } from "@material-ui/core";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 // import routes
-import Contact from "./components/pages/Contact";
-import Home from "./components/pages/Home";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 
 import "./App.css";
 
 const palette = {
     primary: {
-        main: "#ffe289"
+        main: "#17c8fe"
     },
     secondary: {
         main: "#000000"
