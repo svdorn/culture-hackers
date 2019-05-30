@@ -1,0 +1,19 @@
+body {
+    min-width: 300px;
+    font-family: Rubik;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    text-transform: none;
+}
+
+.App {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    background-color: var(--background-color);
+    padding-bottom: 50px;
+}

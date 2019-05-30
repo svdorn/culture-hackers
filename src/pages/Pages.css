@@ -1,0 +1,250 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    display: inline-flex;
+    max-width: 97%;
+    margin: 20px auto 0 auto;
+    align-items: center;
+}
+
+.first-frame-container {
+    position: relative;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image */
+    padding-top: 80px;
+    width: 100%;
+}
+
+.frame-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 180px;
+}
+.last-frame {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.background-blue {
+    background-color: var(--primary-blue);
+}
+.background-yellow {
+    background-color: var(--primary-yellow);
+}
+
+.home-first-frame {
+    height: 600px;
+    background-image: url("/images/Dogs/Dog2.jpg");
+}
+.first-frame-header {
+    color: var(--text-white);
+    height: 180px;
+}
+.home-header {
+    max-width: 92%;
+    margin: auto;
+    text-align: left;
+}
+.header-name {
+    color: var(--background-color);
+    font-size: 50px;
+    padding-top: 120px;
+}
+.header-text {
+    color: var(--background-color);
+    font-size: 20px;
+    padding-top: 20px;
+}
+.donate-button {
+    font-size: 24px !important;
+    padding: 12px 36px !important;
+    background-color: var(--primary-yellow) !important;
+    color: var(--text-white) !important;
+}
+
+.application-buttons {
+    margin-top: 30px;
+}
+
+.home-about {
+    margin: auto;
+    max-width: 92%;
+}
+.home-about > div {
+    padding: 10px;
+}
+.home-about > div:first-child {
+    font-size: 50px;
+}
+.home-about > div:nth-child(2) {
+    max-width: 500px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+.home-donate {
+}
+
+.link-cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: center;
+}
+.link-cards > a {
+    margin: auto 20px;
+}
+.link-cards-header {
+    font-size: 44px;
+    color: var(--text-white);
+}
+
+.swirly {
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    width: 2013px;
+    height: 172px;
+    margin-left: -1007px;
+}
+
+.contact-header {
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+
+.contact-form {
+    margin: auto;
+}
+.application-form {
+    margin: auto 0 30px 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    width: 92%;
+}
+
+.application-questionnaire {
+    margin: 30px auto;
+    max-width: 700px;
+    width: 92%;
+    text-align: center;
+}
+
+.application-radio-group {
+    margin-top: 20px !important;
+}
+
+.text-field {
+    display: flex !important;
+    margin: 20px auto !important;
+    width: 300px;
+    max-width: 300px;
+}
+
+.form-button-container {
+    cursor: pointer;
+    margin: 20px auto;
+}
+.form-button {
+    background-color: var(--primary-yellow) !important;
+    color: var(--text-white) !important;
+}
+
+.text-field-multiline {
+    width: 300px;
+    max-width: 300px;
+}
+
+.contact {
+    font-size: 26px;
+    color: var(--text-black);
+    display: block;
+}
+.contact > div {
+    margin: auto;
+}
+.contact > img {
+    height: 400px;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 20px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+.contact > div > div:not(:first-child) {
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 25px;
+}
+.button {
+    background-color: var(--primary-color) !important;
+    color: var(--text-white) !important;
+}
+
+@media only screen and (max-width: 950px) {
+    .contact-header {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .home {
+        display: block;
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 700px) {
+    .intro {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .contact {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-name {
+        font-size: 40px;
+    }
+    .header-text {
+        font-size: 18px;
+    }
+    .donate-button {
+        font-size: 20px !important;
+        padding: 10px 24px !important;
+    }
+    .home-about {
+    }
+    .home-about > div:first-child {
+        font-size: 40px;
+    }
+    .home-about > div:nth-child(2) {
+        font-size: 16px;
+    }
+    .link-cards-header {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact {
+        font-size: 18px;
+    }
+    .contact-header {
+        font-size: 18px;
+    }
+}
