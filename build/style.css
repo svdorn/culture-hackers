@@ -1,0 +1,9 @@
+:root {
+    --background-color: #ffffff;
+    --primary-color: #17c8fe;
+    --primary-white: #ffffff;
+    --primary-black: #000000;
+    --text-white: #fffafa;
+    --text-black: #272727;
+    --logo-color: rgba(26, 28, 64, 0.6);
+}

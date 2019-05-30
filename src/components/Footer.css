@@ -9,7 +9,6 @@
     vertical-align: top;
     margin-top: 40px;
     margin-left: 60px;
-    font-size: 26px;
     display: inline-block;
 }
 .footer-button {
@@ -38,5 +37,11 @@
 @media only screen and (max-width: 750px) {
     .footer-button {
         display: none;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-logo {
+        margin: 40px auto;
     }
 }
