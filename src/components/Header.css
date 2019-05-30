@@ -20,7 +20,7 @@ a {
 .menu > div:nth-child(2) {
     float: right;
     margin-right: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 @media only screen and (max-width: 900px) {
