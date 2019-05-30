@@ -1,16 +1,16 @@
-# Senior Paws Sanctuary
-Website for Senior Paws Sanctuary, a senior dog sanctuary in Madison, WI.
+# Culture Hackers
+Website for the Culture Hackers Community.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ```
 cd to a directory where you want the repo placed on your local machine
-git clone https://github.com/svdorn/SeniorPawsSanctuary
-cd SeniorPawsSanctuary
+git clone https://github.com/svdorn/Culture-Hackers
+cd Culture-Hackers
 npm install
 ```
-To run the project run this instruction in your SeniorPawsSanctuary folder.
+To run the project run this instruction in your Culture-Hackers folder.
 ```
 npm start
 ```
